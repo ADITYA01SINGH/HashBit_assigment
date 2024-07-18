@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* MovieList styles */
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* MovieDetails styles */
+  .movie-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movie-details h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-details a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* BookSeat styles */
+  .book-seat {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .book-seat form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .book-seat label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .book-seat input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .book-seat button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-seat button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* BookingConfirmation styles */
+  .booking-confirmation {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .booking-confirmation h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .booking-confirmation p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
