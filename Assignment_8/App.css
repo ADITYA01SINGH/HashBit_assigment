@@ -1,0 +1,18 @@
+/* src/App.css */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-item img {
+  max-width: 100%;
+  height: auto;
+}
